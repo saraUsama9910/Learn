@@ -5,6 +5,7 @@ class CustomFormButton extends StatelessWidget {
   final void Function()? onPressed;
   const CustomFormButton({Key? key, required this.innerText, required this.onPressed}) : super(key: key);
 
+
   @override
   Widget build(BuildContext context) {
     Size size = MediaQuery.of(context).size;
