@@ -63,6 +63,7 @@ class UserCubit extends Cubit<UserState> {
     );
   }
 
+
   getUserProfile() async {
     emit(GetUserLoading());
     final response = await userRepository.getUserProfile();
